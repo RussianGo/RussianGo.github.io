@@ -3,14 +3,14 @@ function search() {
     var listIndex = -1;
     var hotList = 0;
     var searchData = {
-        "thisSearch": "https://www.google.com/search?q=",
+        "thisSearch": "https://www.baidu.com/s?wd=",
         "thisSearchIcon": "url('/images/search_icon.png')",
         "hotStatus": true,
         "data": [{
-            name: "谷歌",
+            name: "百度",
             img: "url('/images/search_icon.png')  -80px 0px",
             position: "0px 0px",
-            url: "https://www.google.com/search?q="
+            url: "https://www.baidu.com/s?wd="
         }, {
             name: "bing",
             img: "url('/images/search_icon.png')  -80px -25px",
